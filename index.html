@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #4f46e5; /* bleu élégant */
+      --primary: #4f46e5;
       --secondary: #6366f1;
       --background: #f9fafb;
       --text-dark: #1f2937;
@@ -68,9 +68,7 @@
       transition: transform 0.2s;
     }
 
-    .card:hover {
-      transform: translateY(-5px);
-    }
+    .card:hover { transform: translateY(-5px); }
 
     .skills-grid, .projects-grid {
       display: grid;
@@ -149,11 +147,23 @@
           <div class="progress"><div class="progress-bar" style="width:90%"></div></div>
         </div>
         <div class="card">
-          <h3>Frameworks</h3>
+          <h3>Frameworks & Outils</h3>
           <div class="skill-item">React JS <span>85%</span></div>
           <div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+          <div class="skill-item">Next JS <span>80%</span></div>
+          <div class="progress"><div class="progress-bar" style="width:80%"></div></div>
           <div class="skill-item">Spring Boot <span>75%</span></div>
           <div class="progress"><div class="progress-bar" style="width:75%"></div></div>
+          <div class="skill-item">Git / Docker <span>70%</span></div>
+          <div class="progress"><div class="progress-bar" style="width:70%"></div></div>
+        </div>
+        <div class="card">
+          <h3>Systèmes</h3>
+          <p>Linux, Windows</p>
+        </div>
+        <div class="card">
+          <h3>Soft Skills</h3>
+          <p>Travail en équipe, communication, résolution de problèmes, autonomie</p>
         </div>
       </div>
     </section>
@@ -169,12 +179,27 @@
           <h3>Site e-commerce</h3>
           <p>Conception d’un site e-commerce avec Symfony et Bootstrap.</p>
         </div>
+        <div class="card project-card">
+          <h3>Application desktop PDF</h3>
+          <p>Conception et développement d’une application desktop en Python pour la manipulation de fichiers PDF. Collaboration en équipe.</p>
+        </div>
+        <div class="card project-card">
+          <h3>Application de traitement des e-mails</h3>
+          <p>Développement d’une application avec réponses automatiques. Front-end : React JS | Back-end : Spring Boot.</p>
+        </div>
+        <div class="card project-card">
+          <h3>Analyse de données</h3>
+          <p>Application de visualisation et analyse de données multi-sources. Nettoyage et traitement des données, création de graphiques pour illustrer les résultats.</p>
+        </div>
       </div>
     </section>
   </div>
 
   <footer>
-    <p>📧 raedabidi@example.com | 🔗 github.com/raedabidi | 💼 linkedin.com/in/raedabidi</p>
+    <p>📧 <a href="mailto:raedabidi887@gmail.com" style="color:white;">raedabidi887@gmail.com</a> | 
+       🔗 <a href="https://github.com/raedabidi" target="_blank" style="color:white;">github.com/raedabidi</a> | 
+       💼 <a href="https://www.linkedin.com/in/raed-abidi-45a22537b/" target="_blank" style="color:white;">linkedin.com/in/raedabidi</a>
+    </p>
   </footer>
 </body>
 </html>
